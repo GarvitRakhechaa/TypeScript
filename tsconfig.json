@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": ".",            // output wahi jahan input hai
+    "rootDir": "."            // rootDir bhi wahi (sabhi l1, l2, l3 ke liye)
+  },
+  "include": ["l*/**/*.ts"],
+  "exclude": ["node_modules"]
+}
