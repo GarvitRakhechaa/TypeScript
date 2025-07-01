@@ -1,2 +1,2 @@
 "use strict";
-console.log("this is  interface");
+console.log("this is  interfaces ");
