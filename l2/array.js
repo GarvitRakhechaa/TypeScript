@@ -1,6 +1,7 @@
+"use strict";
 //Object Array , Tuple , Enum
 console.log("learning objects");
-var person = {
+const person = {
     firstName: "Patel",
     age: 31,
     xyz: {
@@ -9,12 +10,12 @@ var person = {
     skills: ["html", "css", "Javascript"]
 };
 // array 
-var favouriteLanguage = ["garvit"];
+let favouriteLanguage = ["garvit"];
 favouriteLanguage[1] = "god";
 // favouriteLanguage[2] = 2 
-var AllTypes = ["garvit", 4, true, [], {}]; //avoid this in ts
+let AllTypes = ["garvit", 4, true, [], {}]; //avoid this in ts
 //Tuple
-var people = {
+const people = {
     name: "Garvit",
     age: 21,
     skills: ["react"],
@@ -28,7 +29,7 @@ var Role;
     Role[Role["AUTHOR"] = 1] = "AUTHOR";
     Role[Role["READ_ONLY"] = 2] = "READ_ONLY";
 })(Role || (Role = {}));
-var peopl2 = {
+const peopl2 = {
     name: "Sakshi",
     age: 20,
     skills: ["html", "css"],
